@@ -1,8 +1,8 @@
 {
   "name": "neo-convertor",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A tool to convert neo smart contract data to human-readable one",
-  "main": "dist/src/convertor/index",
+  "main": "dist/NeoConvertor/index",
   "directories": {
     "test": "test"
   },
