@@ -18,3 +18,15 @@ npm install neo-convertor
   const address = NeoConvertor.Address.scriptHashToAddress(scriptHashInBigendian);
   console.log(address); //AeV59NyZtgj5AMQ7vY6yhr2MRvcfFeLWSb
 ```
+## API
+| Description | Package | Method |
+| ---- | ---- | ---- |
+| String => Hex | StringHex | stringToHex(str) |
+| Hex => String | StringHex | hexToString(hex) |
+| Big Endian ScriptHash => Address | Address | scriptHashToAddress(scriptHash) |
+| Address =>  Big Endian ScriptHash | Address | addressToScriptHash(address) |
+| Little Endian ScriptHash => Address | Address | scriptHashToAddress(scriptHash, true) |
+| Address =>  Little Endian ScriptHash | Address | addressToScriptHash(address, true) |
+| Big Endian <=> Little Endian | Address | changeEndian(scriptHash) |
+| Number <=> Hex Number | HexNumber | numberToHexNumber(number) |
+| Hex Number <=> Number | HexNumber | hexNumberToNumber(hexNumber) |
