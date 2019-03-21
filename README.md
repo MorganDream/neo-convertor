@@ -28,5 +28,5 @@ npm install neo-convertor
 | Little Endian ScriptHash => Address | Address | scriptHashToAddress(scriptHash, true) |
 | Address =>  Little Endian ScriptHash | Address | addressToScriptHash(address, true) |
 | Big Endian <=> Little Endian | Address | changeEndian(scriptHash) |
-| Number <=> Hex Number | HexNumber | numberToHexNumber(number) |
-| Hex Number <=> Number | HexNumber | hexNumberToNumber(hexNumber) |
+| Number => Hex Number | HexNumber | numberToHexNumber(number) |
+| Hex Number => Number | HexNumber | hexNumberToNumber(hexNumber) |
